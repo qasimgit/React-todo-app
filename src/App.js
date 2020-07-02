@@ -19,7 +19,7 @@ function App() {
   };
 
   const editTodo = (data) => {
-    let todoIndex = todos.findIndex((ele) => ele.id == data.id);
+    let todoIndex = todos.findIndex((ele) => ele.id === data.id);
     let newTodos = [...todos];
     newTodos[todoIndex] = data;
     setTodos(newTodos);
