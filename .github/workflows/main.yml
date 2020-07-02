@@ -37,5 +37,5 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy to Surge
-        run: surge ./build tododev.surge.sh --token ${{secrets.SURGE_TOKEN_DEV}}
+        run: surge ./build fuzzy-boundary.surge.sh --token ${{secrets.SURGE_TOKEN_DEV}}
 
