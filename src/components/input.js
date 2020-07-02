@@ -23,7 +23,7 @@ export const Input = ({ handleAddTodo }) => {
       <input
         type="text"
         onKeyPress={(event) => {
-          if (event.charCode == 13) {
+          if (event.charCode === 13) {
             AddTodo();
           }
         }}
